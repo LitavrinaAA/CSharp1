@@ -11,6 +11,5 @@ if (firstNum > secondNum){
     Console.WriteLine("Самое большое первое число {0} , а самое маленькое второе {1}. " , firstNum, secondNum);
 }
 else {
-    Console.WriteLine("Самое большоес второе число " + secondNum 
-                + ", а самое маленькое первое " + firstNum);  
+    Console.WriteLine($"Самое большое второе число {secondNum}, а самое маленькое первое {firstNum}");  
 }
