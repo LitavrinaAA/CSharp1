@@ -8,8 +8,7 @@ int firstNum = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int secondNum = int.Parse(Console.ReadLine());
 if (firstNum > secondNum){
-    Console.WriteLine("Самое большое первое число " + firstNum 
-                + ", а самое маленькое второе " + secondNum);
+    Console.WriteLine("Самое большое первое число {0} , а самое маленькое второе {1}. " , firstNum, secondNum);
 }
 else {
     Console.WriteLine("Самое большоес второе число " + secondNum 
